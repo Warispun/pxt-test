@@ -48,4 +48,15 @@ namespace whaleysans {
         }
         img.showImage(0, 10);
     }
+    
+    //% blockId = "function with argument" block="function %dat"
+    export function function(dat: number): void {
+        img = images.createImage(`
+    . . . . .
+    . . . . .
+    . # # # .
+    . . . . .
+    . . . . .
+    `)
+        img.showImage(0,10)
 }
