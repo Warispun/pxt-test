@@ -59,4 +59,5 @@ namespace whaleysans {
     . . . . .
     `)
         img.showImage(0,10)
+    }
 }
